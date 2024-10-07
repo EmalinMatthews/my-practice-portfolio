@@ -5,6 +5,7 @@ import {
   AiOutlineTwitter,
   AiOutlineYoutube,
   AiOutlineFacebook,
+  AiOutlineSpotify,
 } from "react-icons/ai";
 
 const Hero = () => {
@@ -23,25 +24,32 @@ const Hero = () => {
 
           <div className="flex py-5 ">
             <a
-              href="https://twitter.com/CoderAmrin"
+              href="https://twitter.com"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
               <AiOutlineTwitter size={40} />{" "}
             </a>
             <a
-              href="https://www.youtube.com/@coderamrin"
+              href="https://www.youtube.com"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
               <AiOutlineYoutube size={40} />{" "}
             </a>
             <a
-              href="https://www.facebook.com/CoderAmrin/"
+              href="https://www.facebook.com"
               className="pr-4 inline-block text-accent hover:text-white"
             >
               {" "}
               <AiOutlineFacebook size={40} />{" "}
+            </a>
+            <a
+              href="https://www.spotify.com/"
+              className="pr-4 inline-block text-accent hover:text-white"
+            >
+              {" "}
+              <AiOutlineSpotify size={40} />{" "}
             </a>
           </div>
 
