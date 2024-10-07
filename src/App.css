@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: white;
 }
 
 @keyframes App-logo-spin {
@@ -38,19 +38,19 @@
 }
 
 .bg-primary {
-  background: #0F172A;
+  background: #030304;
 }
 
 .bg-secondery {
-  background: #1E293B;
+  background: #49370f;
 }
 
 .bg-accent {
-  background: #7477FF;
+  background: #936f1e;
 }
 
 .text-accent {
-  color: #7477FF;
+  color: #936f1e;
 } 
 
 .mobile-nav {
@@ -61,11 +61,11 @@ nav li a {
 }
 
 nav li a:hover {
-    color: #7477FF;
+    color: #936f1e;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Verdana';
   font-weight: bold;
   line-height: 1.5 !important;
 }
