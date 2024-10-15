@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImg from "../assets/about-img.png";
+import AboutImg from "../assets/about-img2.png";
 
 const About = () => {
   return (
@@ -11,24 +11,25 @@ const About = () => {
           </h2>
 
           <p className="pb-5">
-            Hi, My Name Is Emalin Matthews I still need to fill this in
+            Hi my name Is Emalin, I am Junior Software Engineer, 
+            with a passion for Frontend Development
           </p>
           <p className="pb-5">
-           Gonna add more stuff here to blah blah blah blah
-           blah blah blah blah blah
+          I am creating this portfolio to both help me learn 
+          and to showcase any projects I have worked on
           </p>
 
-          <p>Little bit more here aswell</p>
+          <p>I am creating this portfolio using React and Tailwind Css</p>
 
           <p>
-          An then add a little more here too
+          This is all currently a work in progress, i will be updating regularly!
           </p>
         </div>
 
-        <div className="about-img">
+        <div className="about-img2 border-4 border-black">
           <img
             src={AboutImg}
-            alt="coding illustration"
+            alt="smiley face"
             className="lgw-[80%] md:ml-auto"
           />
         </div>
