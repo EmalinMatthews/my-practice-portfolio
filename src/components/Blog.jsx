@@ -3,6 +3,11 @@ import React from "react";
 const Blog = () => {
   const post = [
     {
+      img: "https://media.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5m61dotp8kq7ltylx04y.png",
+      title: "How to build a portfolio website with React & Tailwind CSS",
+      url: "https://dev.to/coderamrin/how-to-build-a-portfolio-website-with-react-tailwind-css-fni",
+    },
+    {
       img: "https://res.cloudinary.com/practicaldev/image/fetch/s--AuZFJnr6--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/a8okx5rxzuh5fojibsy3.png",
       title: "How to build a counter app with JavaScript",
       url: "https://dev.to/coderamrin/how-to-build-a-counter-app-with-javascript-439p",
@@ -12,6 +17,7 @@ const Blog = () => {
       title: "JavaScript Ultimate Guide 02: The DOM",
       url: "https://dev.to/coderamrin/javascript-ultimate-guide-02-the-dom-3ho9",
     },
+   
   ];
 
   return (
@@ -22,7 +28,8 @@ const Blog = () => {
             Blogs
           </h2>
 
-          <p className="pb-5">Some useful blogs.</p>
+          <p className="pb-5">Here are some blog posts with handy tutorials, 
+          including the one I used to create this page.</p>
         </div>
 
         <div></div>
