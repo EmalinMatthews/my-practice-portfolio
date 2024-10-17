@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImg from "../assets/hero-img.png";
+import HeroImg from "../assets/hero-img2.png";
 
 import {
   AiOutlineTwitter,
@@ -61,7 +61,7 @@ const Hero = () => {
           </a>
         </div>
 
-        <div className="hero-img">
+        <div className="hero-img2">
           <img
             src={HeroImg}
             alt="coding illustration"
