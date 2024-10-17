@@ -28,8 +28,8 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#resume -link" target="_blank" without rel="noreferrer">
-              Resume
+            <a href="#home -link" target="_blank" without rel="noreferrer">
+              Home
             </a>
           </li>
         </ul>
@@ -53,7 +53,7 @@ const Header = () => {
             <a href="/#contact" onClick={handleToggle}>Contact</a>
           </li>
           <li>
-            <a href="/#resume" onClick={handleToggle}>Resume</a>
+            <a href="/#home - link" target="_blank" without rel="noreferrer" onClick={handleToggle}>Home</a>
           </li>
         </ul>
       </nav>
