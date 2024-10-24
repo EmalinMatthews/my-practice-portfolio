@@ -28,7 +28,7 @@ const Header = () => {
             <a href="/#contact">Contact</a>
           </li>
           <li>
-            <a href="#home -link" target="_blank" without rel="noreferrer">
+            <a href="#top">
               Home
             </a>
           </li>
@@ -53,7 +53,7 @@ const Header = () => {
             <a href="/#contact" onClick={handleToggle}>Contact</a>
           </li>
           <li>
-            <a href="/#home - link" target="_blank" without rel="noreferrer" onClick={handleToggle}>Home</a>
+            <a href="/#top" onClick={handleToggle}>Home</a>
           </li>
         </ul>
       </nav>
