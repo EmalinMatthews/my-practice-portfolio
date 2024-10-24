@@ -1,30 +1,26 @@
 import React from "react";
-import cssProjects from "../assets/sunset.png";
-import devlog from "../assets/sunset.png";
-
+import sunset from "../assets/sunset.png";
+import portfolio from "../assets/portfolio.png";
 import uilogs from "../assets/sunset.png";
 
 const Projects = () => {
     const projects = [
         {
-          img: devlog,
-          title: "devlog",
-          desc: " A multi author blog. Built with Node.js, MongoDB, React, Redux and Tailwind CSS ",
-          live: "https://devlogg.onrender.com/",
-          code: "https://github.com/Coderamrin/devlog",
+          img: portfolio,
+          title: "portfolio",
+          desc: " Create a Portfolio using React and Tailwind CSS ",
+          code: "https://github.com/EmalinMatthews/my-practice-portfolio/tree/main",
         },
         {
           img: uilogs,
           title: "uilogs",
           desc: "Free website template directory for SaaS and Degital Agency. Built with Bootstrap, JQuery and JavaScript",
-          live: "https://uilogs.xyz/",
           code: "https://github.com/Coderamrin/html-templates",
         },
         {
-          img: cssProjects,
-          title: "css projects",
+          img: sunset,
+          title: "sunset image",
           desc: "Frontend Mentor challange directory, solved with vanilla CSS",
-          live: "https://build-10-css-projects.netlify.app/",
           code: "https://github.com/Coderamrin/build-10-css-projects",
         },
       
@@ -58,15 +54,10 @@ const Projects = () => {
                 </p>
 
                 <div className="mx-auto">
-                  <a
-                    href={project.live}
-                    className="px-5 py-2 bg-blue-500 hover:bg-blue-600 mr-5 font-bold"
-                  >
-                    Live
-                  </a>
+                
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold"
+                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold" target="_blank"
                   >
                     Code
                   </a>
