@@ -64,8 +64,12 @@ nav li a:hover {
     color: #936f1e;
 }
 
-h1 {
+/* h1 {
   font-family: 'Verdana';
   font-weight: bold;
+  line-height: 1.5 !important;
+} */
+h1 {
+  font-family: 'Pacifico', cursive;
   line-height: 1.5 !important;
 }
