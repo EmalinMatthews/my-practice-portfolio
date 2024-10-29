@@ -6,14 +6,16 @@ import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import DateTime from "./components/DateTime";
 
 function App() {
   return (
     <>
+      <DateTime/>
       <Header />
       <Hero />
       <About />
-     <Projects />
+      <Projects />
       <Blog />
       <Contact />
       <Footer />
