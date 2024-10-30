@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import DateTime from "./DateTime";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,7 +12,7 @@ const Header = () => {
       <a href="/" className="logo text-2xl font-bold text-accent">
         Emalin
       </a>
-
+      
       {/* Desktop Nav */}
       <nav className="hidden md:block">
         <ul className="flex">
@@ -34,6 +35,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <DateTime/>
 
       {/* Mobile Nav */}
       <nav

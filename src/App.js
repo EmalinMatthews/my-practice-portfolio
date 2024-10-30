@@ -11,7 +11,6 @@ import DateTime from "./components/DateTime";
 function App() {
   return (
     <>
-      <DateTime/>
       <Header />
       <Hero />
       <About />

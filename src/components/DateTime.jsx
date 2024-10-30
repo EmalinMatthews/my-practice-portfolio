@@ -15,7 +15,7 @@ export const DateTime = () => {
 
     return(
         <div>
-            <p> Time : {date.toLocaleTimeString()} Date : {date.toLocaleDateString()}</p>
+            <p> {date.toLocaleDateString()} {date.toLocaleTimeString()} </p>
         </div>
     )
 }
