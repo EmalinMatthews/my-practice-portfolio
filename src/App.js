@@ -7,15 +7,18 @@ import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Video from "./components/Video"
+import { HomePage } from "./pages/HomePage";
+
 
 function App() {
   return (
     <>
-      <Header />
+      <Header /> 
       <Video />
+       <HomePage/>
       <Hero />
       <About />
-      <Projects />
+       <Projects />
       <Blog />
       <Contact />
       <Footer />
