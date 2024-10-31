@@ -6,12 +6,13 @@ import Projects from "./components/Projects";
 import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import DateTime from "./components/DateTime";
+import Video from "./components/Video"
 
 function App() {
   return (
     <>
       <Header />
+      <Video />
       <Hero />
       <About />
       <Projects />
@@ -21,5 +22,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
