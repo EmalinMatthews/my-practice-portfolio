@@ -43,7 +43,7 @@ const Blog = () => {
               <h3 className="py-5 text-2xl">{item.title}</h3>
               <a
                 href={item.url}
-                className=" btn bg-accent  border-2 border-[#fef8ea] text-white px-6 py-3 hover:bg-transparent" target="_blank"
+                className=" btn bg-accent  border-2 border-[#fef8ea] text-white px-6 py-3 hover:bg-transparent" target="_blank" rel="noreferrer" 
               >
                 Read More
               </a>

@@ -57,7 +57,7 @@ const Projects = () => {
                 
                   <a
                     href={project.code}
-                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold" target="_blank"
+                    className="px-5 py-2 bg-blue-700 hover:bg-blue-800 font-bold" target="_blank" rel="noreferrer" 
                   >
                     Code
                   </a>

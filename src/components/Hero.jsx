@@ -25,28 +25,28 @@ const Hero = () => {
           <div className="flex py-5 ">
             <a
               href="https://twitter.com"
-              className="pr-4 inline-block text-accent hover:text-white" target="_blank"
+              className="pr-4 inline-block text-accent hover:text-white" target="_blank" rel="noreferrer" 
             >
               {" "}
               <AiOutlineTwitter size={40} />{" "}
             </a>
             <a
               href="https://www.youtube.com"
-              className="pr-4 inline-block text-accent hover:text-white" target="_blank"
+              className="pr-4 inline-block text-accent hover:text-white" target="_blank" rel="noreferrer" 
             >
               {" "}
               <AiOutlineYoutube size={40} />{" "}
             </a>
             <a
               href="https://www.facebook.com"
-              className="pr-4 inline-block text-accent hover:text-white" target="_blank"
+              className="pr-4 inline-block text-accent hover:text-white" target="_blank" rel="noreferrer" 
             >
               {" "}
               <AiOutlineFacebook size={40} />{" "}
             </a>
             <a
               href="https://www.spotify.com/"
-              className="pr-4 inline-block text-accent hover:text-white" target="_blank"
+              className="pr-4 inline-block text-accent hover:text-white" target="_blank" rel="noreferrer" 
             >
               {" "}
               <AiOutlineSpotify size={40} />{" "}
