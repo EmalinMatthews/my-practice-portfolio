@@ -6,12 +6,13 @@ import { BlogPage } from "./pages/BlogPage";
 import { ContactPage } from "./pages/ContactPage";
 import { AboutPage } from "./pages/AboutPage";
 import { AwardsPage } from "./pages/AwardsPage"; 
+import Video from "./components/Video"
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    
+    <Video/>
     <Routes>
        <Route path="/" element={<HomePage />}/>
        <Route path="/AboutPage" element={<AboutPage />}/>
