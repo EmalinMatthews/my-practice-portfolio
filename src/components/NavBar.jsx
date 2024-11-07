@@ -18,6 +18,9 @@ const NavBar = () => {
           <NavLink to="/BlogPage">Blog</NavLink>
         </li>
         <li>
+          <NavLink to="/AwardsPage">Awards+Honours</NavLink>
+        </li> 
+        <li>
           <NavLink to="/ContactPage">Contacts</NavLink>
         </li> 
       </ul>

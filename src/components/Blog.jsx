@@ -27,7 +27,8 @@ const Blog = () => {
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[100px] border-black pb-2">
             Blogs
           </h2>
-
+          <h1> I am going to rewrite the tutorials i used to make
+             this site and then turn them into blog post and link them here</h1>
           <p className="pb-5">Here are some blog posts with handy tutorials, 
           including the one I used to create this page.</p>
         </div>
