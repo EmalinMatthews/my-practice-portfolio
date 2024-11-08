@@ -30,7 +30,7 @@ const About = () => {
           <img
             src={AboutImg}
             alt="smiley face"
-            className="lgw-[80%] md:ml-auto"
+           
           />
         </div>
       </div>
