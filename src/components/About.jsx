@@ -1,9 +1,9 @@
 import React from "react";
-import AboutImg from "../assets/about-img2.png";
+import giraffe from "../assets/giraffe-img.png";
 
 const About = () => {
   return (
-    <section className="bg-secondery text-white px-5 py-32"  id="about">
+    <section className="bg-secondery text-white"  id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between">
         <div className="about-info">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] border-black pb-2">
@@ -26,11 +26,13 @@ const About = () => {
           </p>
         </div>
 
-        <div className="about-img2 border-4 border-black">
+        <div>
           <img
-            src={AboutImg}
-            alt="smiley face"
-           
+            src={giraffe}
+            width={500} height={500}
+            alt="a giraffe at a laptop"
+            align="right"
+            
           />
         </div>
       </div>
