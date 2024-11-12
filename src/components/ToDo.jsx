@@ -28,6 +28,7 @@ function ToDo() {
     <div className="app">
       <header className="header">
         <h1>To-Do List</h1>
+        <p>Click On The Task To Mark It As Done!</p>
       </header>
       <div className="input-container">
         <input 
@@ -42,7 +43,7 @@ function ToDo() {
         {tasks.map((task, index) => (
           <li key={index} className={task.completed ? 'task completed' : 'task'}>
             <span onClick={() => toggleTask(index)}>{task.text}</span>
-            <button onClick={() => deleteTask(index)}>Done</button>
+            <button onClick={() => deleteTask(index)}>Clear</button>
           </li>
         ))}
       </ul>
