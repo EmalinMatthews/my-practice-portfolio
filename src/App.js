@@ -7,6 +7,7 @@ import { ContactPage } from "./pages/ContactPage";
 import { AboutPage } from "./pages/AboutPage";
 import { AwardsPage } from "./pages/AwardsPage"; 
 import Video from "./components/Video"
+import { ToDoPage } from "./pages/ToDoPage";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
        <Route path="/BlogPage" element={<BlogPage />}/>
        <Route path="/AwardsPage" element={<AwardsPage />}/>
        <Route path="/ContactPage" element={<ContactPage />}/>
+       <Route path="/ToDoPage" element={<ToDoPage />}/>
     </Routes>
     
     </BrowserRouter>

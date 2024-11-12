@@ -11,7 +11,7 @@ const Header = () => {
   const handleToggle = () => setToggle(!toggle);
 
   return (
-    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full z-10">
+    <header className="flex justify-between px-5 py-2 bg-primary text-white fixed w-full">
       <a href="/" className="logo text-2xl font-bold text-accent">
         Em
       </a>
@@ -38,6 +38,9 @@ const Header = () => {
         </li>
         <li>
           <NavLink to="/ContactPage">Contacts</NavLink>
+        </li> 
+        <li>
+          <NavLink to="/ToDoPage">To-Do</NavLink>
         </li> 
         </ul>
       </nav>

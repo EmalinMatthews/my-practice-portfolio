@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-function Todo() {
+function ToDo() {
   const [tasks, setTasks] = useState([]);
   const [input, setInput] = useState('');
 
@@ -42,7 +42,7 @@ function Todo() {
         {tasks.map((task, index) => (
           <li key={index} className={task.completed ? 'task completed' : 'task'}>
             <span onClick={() => toggleTask(index)}>{task.text}</span>
-            <button onClick={() => deleteTask(index)}>Delete</button>
+            <button onClick={() => deleteTask(index)}>Done</button>
           </li>
         ))}
       </ul>
@@ -50,4 +50,4 @@ function Todo() {
   );
 }
 
-export default Todo;
+export default ToDo;
