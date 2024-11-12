@@ -54,7 +54,7 @@ const Hero = () => {
           </div>
 
           <a
-            href="/#projects"
+            href="/ProjectsPage"
             className=" btn bg-accent  border-2 border-[#fef8ea] text-white px-6 py-3 hover:bg-transparent"
           >
             See Projects
@@ -65,7 +65,6 @@ const Hero = () => {
           <img
             src={HeroImg}
             alt="coding illustration"
-            className="lgw-[80%] ml-auto"
           />
         </div>
       </div>
