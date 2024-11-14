@@ -55,16 +55,17 @@ const Hero = () => {
 
           <a
             href="/ProjectsPage"
-            className=" btn bg-accent  border-2 border-[#fef8ea] text-white px-6 py-3 hover:bg-transparent"
+            className=" btn bg-accent  border-2 border-[#fef8ea] text-white px-20 py-3 hover:bg-transparent"
           >
             See Projects
           </a>
         </div>
 
-        <div className="hero-img2">
+        <div className="hero-img2 mt-8">
           <img
             src={HeroImg}
             alt="coding illustration"
+            width="400" height="200"
           />
         </div>
       </div>

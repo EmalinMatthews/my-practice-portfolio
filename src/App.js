@@ -6,14 +6,15 @@ import { BlogPage } from "./pages/BlogPage";
 import { ContactPage } from "./pages/ContactPage";
 import { AboutPage } from "./pages/AboutPage";
 import { AwardsPage } from "./pages/AwardsPage"; 
-import Video from "./components/Video"
 import { ToDoPage } from "./pages/ToDoPage";
+import Footer from "./components/Footer";
+
+
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Video/>
     <Routes>
        <Route path="/" element={<HomePage />}/>
        <Route path="/AboutPage" element={<AboutPage />}/>
@@ -23,7 +24,7 @@ function App() {
        <Route path="/ContactPage" element={<ContactPage />}/>
        <Route path="/ToDoPage" element={<ToDoPage />}/>
     </Routes>
-    
+    <Footer/>
     </BrowserRouter>
     </>
   );
