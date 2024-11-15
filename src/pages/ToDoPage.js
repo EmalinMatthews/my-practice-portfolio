@@ -9,7 +9,7 @@ export const ToDoPage = () => {
         <ToDo/> 
         <div className="text-center text-6xl mb-8" >
             <DateTime/>
-            <h1 className="text-center text-9xl mb-8" >Have A Great Day!</h1>
+            <h1 className="text-center text-8xl mb-8" >Have A Great Day!</h1>
         </div>
         </>
     );
