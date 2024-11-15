@@ -5,7 +5,7 @@ import { ProjectsPage } from "./pages/ProjectsPage"
 import { BlogPage } from "./pages/BlogPage";
 import { ContactPage } from "./pages/ContactPage";
 import { AboutPage } from "./pages/AboutPage";
-import { AwardsPage } from "./pages/AwardsPage"; 
+// import { AwardsPage } from "./pages/AwardsPage"; 
 import { ToDoPage } from "./pages/ToDoPage";
 import Footer from "./components/Footer";
 
@@ -20,7 +20,7 @@ function App() {
        <Route path="/AboutPage" element={<AboutPage />}/>
        <Route path="/ProjectsPage" element={<ProjectsPage />}/>
        <Route path="/BlogPage" element={<BlogPage />}/>
-       <Route path="/AwardsPage" element={<AwardsPage />}/>
+       {/* <Route path="/AwardsPage" element={<AwardsPage />}/> */}
        <Route path="/ContactPage" element={<ContactPage />}/>
        <Route path="/ToDoPage" element={<ToDoPage />}/>
     </Routes>

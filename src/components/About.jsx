@@ -3,7 +3,7 @@ import giraffe from "../assets/giraffe-img.png";
 
 const About = () => {
   return (
-    <section className="bg-secondery text-white"  id="about">
+    <section className="bg-secondery text-white py-32"  id="about">
       <div className="container mx-auto grid md:grid-cols-2 items-center">
         <div className="about-info">
           <h2 className="text-4xl font-bold mb-5 border-b-[5px] w-[180px] pb-2">

@@ -13,6 +13,9 @@ const Contact = () => {
           <p className="py-2">
             <span className="font-bold">Email:</span> emalin.matthews@coop.co.uk
           </p>
+          <div className="h-[350px]">
+
+          </div>
      
         </div>
       </section>
