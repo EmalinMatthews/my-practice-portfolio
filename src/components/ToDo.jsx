@@ -48,6 +48,10 @@ function ToDo() {
           type="text" 
           value={input}
           onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter")
+                addTask();
+            }}
           placeholder="Add a new task"
         />
         <button onClick={addTask}>Add</button>
