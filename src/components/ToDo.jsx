@@ -27,7 +27,7 @@ function ToDo() {
 
   return (
     
-    <section className="bg-secondary text-black py-32"  id="about">
+    <section className="bg-secondary text-black py-28"  id="about">
       <h1 className="text-center text-8xl">Have A Great Day!</h1>
     <div className="app">
       
