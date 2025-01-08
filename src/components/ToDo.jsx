@@ -27,7 +27,7 @@ function ToDo() {
 
   return (
     
-    
+    <section className="bg-secondery text-black py-32"  id="about">
     <div className="app">
       
       <header className="header">
@@ -67,6 +67,7 @@ function ToDo() {
       </ul>
       
     </div>
+    </section>
   );
 }
 
