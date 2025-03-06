@@ -12,31 +12,41 @@
 
 .text-accent {
   color: #936f1e;
-} 
+}
 
 .mobile-nav {
   @apply block md:hidden fixed top-10 py-2 w-full h-full bg-gray-900 duration-500;
 }
 nav li a {
-    @apply px-4 py-5 text-lg;
+  @apply px-4 py-5 text-lg;
 }
 
 nav li a:hover {
-    color: #936f1e;
+  color: #936f1e;
 }
 
 h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   line-height: 1.5 !important;
 }
-
 
 /* To-Do Component Stuff */
 .app {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #f4f4f9;
+  background-color: #faf9f7;
   padding: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 15px;
+  border-width: 6px;
+  border-color: #030304;
+}
+.app2 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: black;
+  padding: 6px;
   max-width: 500px;
   margin: 50px auto;
   border-radius: 10px;
@@ -80,6 +90,7 @@ h1 {
 .task-list {
   list-style: none;
   padding: 0;
+  line-height: 5px;
 }
 
 .task {
