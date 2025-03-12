@@ -47,17 +47,6 @@ function ToDo() {
           <p className="mt-2">Click On The Task To Mark It As Done!</p>
         </header>
 
-        <ul className="task-list">
-          {tasks.map((task, index) => (
-            <li
-              key={index}
-              className={task.completed ? "task completed" : "task"}
-            >
-              <span onClick={() => toggleTask(index)}>{task.text}</span>
-              <button onClick={() => deleteTask(index)}>Delete</button>
-            </li>
-          ))}
-        </ul>
         <div className={`input-container`} ref={taskRef}>
           <input
             type="text"
@@ -70,6 +59,18 @@ function ToDo() {
           />
           <button onClick={addTask}>Add</button>
         </div>
+
+        <ul className="task-list">
+          {tasks.map((task, index) => (
+            <li
+              key={index}
+              className={task.completed ? "task completed" : "task"}
+            >
+              <span onClick={() => toggleTask(index)}>{task.text}</span>
+              <button onClick={() => deleteTask(index)}>Delete</button>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
