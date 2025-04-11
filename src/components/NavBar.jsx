@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-
 const NavBar = () => {
   return (
     <nav className="hidden md:block">
@@ -27,12 +26,14 @@ const NavBar = () => {
 
         <li>
           <NavLink to="/ContactPage">Contacts</NavLink>
-          </li>
-          
+        </li>
+
         <li>
           <NavLink to="/ToDoPage">To-Do</NavLink>
-        </li> 
-        
+        </li>
+        <li>
+          <NavLink to="/LibraryPage">Library</NavLink>
+        </li>
       </ul>
     </nav>
   );
