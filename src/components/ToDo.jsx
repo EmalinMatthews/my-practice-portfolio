@@ -60,7 +60,7 @@ function ToDo() {
           <button onClick={addTask}>Add</button>
         </div>
 
-        <ul className="task-list">
+        <ul className="deleteButton">
           {tasks.map((task, index) => (
             <li
               key={index}

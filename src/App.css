@@ -84,13 +84,13 @@ h1 {
 }
 
 .input-container button:hover {
-  background-color: #218838;
+  background-color: #882175;
 }
 
 .task-list {
   list-style: none;
   padding: 0;
-  line-height: 5px;
+  line-height: 10px;
   max-height: 200px;
   overflow: auto;
 }
@@ -123,4 +123,37 @@ h1 {
 
 .task button:hover {
   background-color: #c82333;
+}
+
+.addButton button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.addButton button:hover {
+  background-color: #882175;
+}
+
+.deleteButton button {
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d03d08;
+  color: white;
+  cursor: pointer;
+  line-height: 10px;
+  overflow: auto;
+  list-style: none;
+  max-height: 200px;
+}
+.deleteButton button:hover {
+  background-color: #0711d2;
 }
