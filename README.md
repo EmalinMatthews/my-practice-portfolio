@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create React App and My Profile
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Contributors ✨
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+<tbody>
+    <tr>
+</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://gitlab.com/emalin.matthews">
+<div><img src="https://ca.slack-edge.com/T0C9E3ZF0-UMGDXU8JH-ade541a7f09e-150" width="200px;" alt=""/></div>
+<small>Emalin Matthews</small>
+<div><a href="#a11y-emalin.matthews" title="Accessibility">️️️️♿️</a> <a href="#code-emalin.matthews" title="Code">💻</a> <a href="#doc-emalin.matthews" title="Documentation">📖</a> <a href="#test-emalin.matthews" title="Tests">⚠️</a></div>
+</a></td>
+    </tr>
+</tbody></table>
